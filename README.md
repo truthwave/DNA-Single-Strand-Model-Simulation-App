@@ -1,83 +1,164 @@
 # DNA Single-Strand Model Simulation App
+（DNA単鎖モデル シミュレーションアプリ）
+
+> “A simple C-language simulation for visualizing random walks and polymer statistics.”
 
 ---
 
 ## 🧬 Overview
 
-This is a simulation program developed in C to model single-stranded DNA behavior.  
-It uses a random walk approach to reproduce structural changes in the polymer chain and automatically calculates and visualizes statistical metrics such as radius of gyration and stability.
+**DNA Single-Strand Model Simulation App** is a C-language simulation tool to model the random motion of single-stranded DNA polymers.
+
+It was designed for:
+
+- Researchers in bioinformatics and physical chemistry
+- Students learning about random walks or polymer physics
+- Anyone seeking to visualize polymer behavior in a simple way
+
+The simulation uses a **random walk algorithm** and outputs both statistical data and visualizations for each simulation step.
 
 ---
 
 ## 🔧 Key Features
 
-- 🎲 **Random Simulation of Single-Strand DNA**
-  - Simulates random motion of a single-stranded polymer, outputting its configuration at each simulation step.
+- 🎲 **Random Walk Simulation**
+    - Simulates the random movement of a single-stranded polymer.
+    - Outputs coordinates/configuration at each step.
 
-- 🖼 **Automatic Image Generation by Step**
-  - Generates and saves visualization images corresponding to simulation steps.
+- 🖼 **Stepwise Visualization**
+    - Automatically generates images showing the polymer shape at selected simulation steps.
+    - Supports PNG conversion via external scripts.
 
-- 📊 **Export of Statistical Data to Excel-Compatible CSV**
-  - Outputs statistical results such as radius of gyration and stability metrics in `.csv` format.
+- 📊 **Export of Statistical Data**
+    - Calculates key metrics such as:
+        - **Radius of Gyration**
+        - **Stability Metrics**
+    - Outputs results in CSV format (Excel-compatible).
 
 ---
 
 ## 🛠 Technology Stack
 
-- **Language**: C
-- **Visualization**: Image file outputs (PNG conversion via scripts)
-- **Data Output**: CSV format (Excel-compatible)
+- **Programming Language**: C
+- **Visualization**: Image output (PNG conversion)
+- **Data Output**: CSV (Excel-compatible)
 
 ---
 
-## 📸 Example Outputs (Illustrative)
+## 📸 Example Outputs
 
-- Images showing initial and evolved polymer structures.
-- Example CSV files containing statistical metrics.
+- Images showing initial and evolved polymer conformations.
+- Sample CSV files containing:
+    - Radius of gyration values
+    - Stability data across simulation steps
 
 ---
 
 ## 🧪 Applications
 
-- Simplified modeling in bioinformatics research  
-- Educational tool for learning random walks  
-- Understanding simulations in physical chemistry and statistical mechanics
+- Simplified modeling in bioinformatics or biophysics research
+- Educational materials for:
+    - Random walk principles
+    - Polymer physics concepts
+- Rapid prototyping for simulation experiments
 
 ---
 
-## 📌 Notes
+## ⚠️ Notes
 
-This program was developed for academic and experimental purposes and does **not** precisely reproduce real DNA structural behavior.
+This program is developed for academic and experimental purposes only and does **not** precisely replicate real DNA structural behavior.
 
+---
+
+## 👨‍💻 My Role (Optional)
+
+I developed this simulation app and handled:
+
+- Random walk simulation logic
+- Data export design
+- Visualization output scripting
+
+---
+
+## License
+
+MIT License
+
+---
 
 # DNA単鎖モデル シミュレーションアプリ
 
+> 「ランダムウォークやポリマー物理の可視化をC言語で手軽に。」
+
+---
+
 ## 🧬 概要
-C言語で開発した、DNAの単鎖モデルを対象としたシミュレーションプログラムです。ランダムウォークを用いて単鎖の構造変化を再現し、慣性半径や安定度などの統計情報を自動で算出・可視化します。
+
+**DNA単鎖モデル シミュレーションアプリ** は、DNA単鎖ポリマーのランダムな動きを  
+C言語でシミュレーションするツールです。
+
+以下の方におすすめ：
+
+- バイオインフォマティクスや物理化学の研究者
+- ランダムウォークやポリマー物理を学ぶ学生
+- ポリマー挙動の簡易可視化をしたい方
+
+ランダムウォークを用い、**統計情報と可視化画像**を出力します。
+
+---
 
 ## 🔧 主な機能
-- 🎲 **単鎖モデルのランダムシミュレーション**
-  - 単鎖ポリマーをランダムに動かし、その挙動をステップごとに出力
-- 🖼 **ステップ数に応じた自動画像生成**
-  - 計算ステップに応じて、可視化用画像を自動生成・保存
-- 📊 **統計データのExcel出力**
-  - 慣性半径（radius of gyration）や安定度（stability metrics）を `.csv` 形式で出力
+
+- 🎲 **ランダムウォークシミュレーション**
+    - 単鎖ポリマーのランダムな運動を再現
+    - 各ステップの座標データを出力
+
+- 🖼 **ステップごとの画像生成**
+    - シミュレーション過程を画像化
+    - PNG変換スクリプト対応
+
+- 📊 **統計データ出力**
+    - 慣性半径や安定度などの統計値を計算
+    - Excel互換のCSV形式で出力可能
+
+---
 
 ## 🛠 使用技術・環境
-- **言語**: C言語
-- **可視化**: 画像ファイル出力（ png変換用スクリプト）
-- **データ出力**: CSV形式（Excel互換）
 
-## 📸 出力例（再現イメージでもOK）
-- 初期構造と変化後の構造（画像例）
-- 出力された統計値（CSVファイル例）
+- **言語**：C言語
+- **可視化**：画像ファイル出力（PNG変換対応）
+- **データ出力**：CSV形式（Excel互換）
 
-## 🧪 応用用途
-バイオインフォマティクス研究の簡易モデル
+---
 
-ランダムウォークの学習教材
+## 📸 出力例
 
-物理化学・統計力学のシミュレーション理解
+- 初期構造と変化後構造の画像例
+- CSVファイル例：
+    - 慣性半径の数値
+    - ステップごとの安定度データ
 
-## 📌 備考
-本プログラムは学術的な実験目的で開発されたものであり、実際のDNA構造挙動を厳密に再現するものではありません。
+---
+
+## 🧪 応用例
+
+- バイオインフォマティクス・生物物理の簡易モデル作成
+- ランダムウォーク学習教材
+- シミュレーション実験の試作
+
+---
+
+## ⚠️ 備考
+
+本プログラムは学術・実験目的で開発されたものであり、  
+実際のDNA構造挙動を厳密に再現するものではありません。
+
+---
+
+## 👨‍💻 開発者情報（オプション）
+
+このシミュレーションアプリにおいて以下を担当しました：
+
+- ランダムウォークの実装
+- 統計データ出力設計
+- 可視化スクリプトの設計
