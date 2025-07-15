@@ -1,7 +1,8 @@
-# DNA Single-Strand Model Simulation App
+# DNA Single-Strand Model Simulation App  
 （DNA単鎖モデル シミュレーションアプリ）
 
-> “A simple C-language simulation for visualizing random walks and polymer statistics.”
+> **“A simple C-language simulation for visualizing random walks and polymer statistics.”**  
+> 「ランダムウォークやポリマー物理の可視化をC言語で手軽に。」
 
 ---
 
@@ -88,7 +89,7 @@ MIT License
 
 # DNA単鎖モデル シミュレーションアプリ
 
-> 「ランダムウォークやポリマー物理の可視化をC言語で手軽に。」
+> **「ランダムウォークやポリマー物理の可視化をC言語で手軽に。」**
 
 ---
 
@@ -162,3 +163,9 @@ C言語でシミュレーションするツールです。
 - ランダムウォークの実装
 - 統計データ出力設計
 - 可視化スクリプトの設計
+
+---
+
+## License
+
+MIT License
