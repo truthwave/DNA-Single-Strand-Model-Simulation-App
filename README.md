@@ -1,3 +1,8 @@
+<p>
+   <img width="1536" height="1024" alt="DNA単鎖モデルのランダムウォークをC言語で可視化" src="https://github.com/user-attachments/assets/2230e3cc-ed64-4f63-8f88-01630c4720e0" />
+ 
+</p>
+
 # DNA単鎖モデル シミュレーションアプリ
 
 > **「ランダムウォークやポリマー物理の可視化をC言語で手軽に。」**
