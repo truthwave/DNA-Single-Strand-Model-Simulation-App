@@ -1,5 +1,6 @@
 <p>
-   <img width="1536" height="1024" alt="DNA単鎖モデルのランダムウォークをC言語で可視化" src="https://github.com/user-attachments/assets/2230e3cc-ed64-4f63-8f88-01630c4720e0" />
+<img width="1536" height="1024" alt="DNA単鎖モデルのランダムウォークをC言語で可視化" src="https://github.com/user-attachments/assets/996b8148-4222-41c3-b5f4-4b713e995e4f" />
+
  
 </p>
 
