@@ -1,7 +1,5 @@
-<p>
+<p align="center">
 <img width="1536" height="1024" alt="DNA単鎖モデルのランダムウォークをC言語で可視化" src="https://github.com/user-attachments/assets/996b8148-4222-41c3-b5f4-4b713e995e4f" />
-
- 
 </p>
 
 # 🧬 CでDNAが動き出す。単鎖ポリマーの世界を“見て”感じるシミュレーター
@@ -79,6 +77,9 @@ C言語で書かれた「**学術とビジュアルをつなぐシンプルな�
 [ともプログラム便り](https://github.com/TomoProgrammingDayori)
 
 AIツール開発・教育向けツールも公開中！
+
+## お気軽にご連絡ください
+[📩 ご相談・お見積もりはこちら](mailto:realmadrid71214591@gmail.com)
 
 ---
 
