@@ -74,8 +74,7 @@ C言語で書かれた「**学術とビジュアルをつなぐシンプルな�
 
 ## 🧑‍💻 作者
 
-[ともプログラム便り](https://github.com/TomoProgrammingDayori)
-
+[ともAI便り](https://github.com/TomoAIDayori)
 AIツール開発・教育向けツールも公開中！
 
 ## お気軽にご連絡ください
