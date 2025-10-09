@@ -1,83 +1,56 @@
-# DNA Single-Strand Model Simulation App  
-（DNA単鎖モデル シミュレーションアプリ）
+# 🧬 DNA in Motion with C. A Simulator to “See” and Feel the World of Single-Strand Polymers
 
-> **“A simple C-language simulation for visualizing random walks and polymer statistics.”**  
-> 「ランダムウォークやポリマー物理の可視化をC言語で手軽に。」
-
----
-
-## 🧬 Overview
-
-**DNA Single-Strand Model Simulation App** is a C-language simulation tool to model the random motion of single-stranded DNA polymers.
-
-It was designed for:
-
-- Researchers in bioinformatics and physical chemistry
-- Students learning about random walks or polymer physics
-- Anyone seeking to visualize polymer behavior in a simple way
-
-The simulation uses a **random walk algorithm** and outputs both statistical data and visualizations for each simulation step.
+> **Run it in 30 seconds, see it in 1 minute.**
+> Random walks, inertial radii, and intuition.
 
 ---
 
-## 🔧 Key Features
+## Experience (Three Steps Are Enough)
 
-- 🎲 **Random Walk Simulation**
-    - Simulates the random movement of a single-stranded polymer.
-    - Outputs coordinates/configuration at each step.
-
-- 🖼 **Stepwise Visualization**
-    - Automatically generates images showing the polymer shape at selected simulation steps.
-    - Supports PNG conversion via external scripts.
-
-- 📊 **Export of Statistical Data**
-    - Calculates key metrics such as:
-        - **Radius of Gyration**
-        - **Stability Metrics**
-    - Outputs results in CSV format (Excel-compatible).
+- **Run**: High-speed generation in C (steps × chain length × seed)
+- **View**: Output coordinates to PNG/GIF (frames or endpoint diagram)
+- **Measure**: Save inertial radius/endpoint distance, etc., to CSV
+> The goal is not “understanding” but “reproduction.” Repeatable under identical conditions.
 
 ---
 
-## 🛠 Technology Stack
+## Parameters (Minimal Only)
 
-- **Programming Language**: C
-- **Visualization**: Image output (PNG conversion)
-- **Data Output**: CSV (Excel-compatible)
-
----
-
-## 📸 Example Outputs
-
-- Images showing initial and evolved polymer conformations.
-- Sample CSV files containing:
-    - Radius of gyration values
-    - Stability data across simulation steps
+| Flag               | Meaning            | Default      |
+| ----------------- | ------------- | ------- |
+| `--steps`         | Total steps         | `10000` |
+| `--length`        | Number of beads        | `100`   |
+| `--seed`          | Random seed         | `auto`  |
+| `--dim`           | Spatial dimension (`2`/`3`) | `3`     |
+| `--lattice`       | Lattice walk (on for Z^d)  | `off`   |
+| `--self-avoid`    | Self-avoidance (SAW)     | `off`   |
+| `--out`           | Output directory      | `./out` |
+| `--png` / `--gif` | Visualization format | `--png` |
 
 ---
 
-## 🧪 Applications
+## Output
 
-- Simplified modeling in bioinformatics or biophysics research
-- Educational materials for:
-    - Random walk principles
-    - Polymer physics concepts
-- Rapid prototyping for simulation experiments
-
----
-
-## ⚠️ Notes
-
-This program is developed for academic and experimental purposes only and does **not** precisely replicate real DNA structural behavior.
+- trajectory.csv: t,x,y,z
+- radius_of_gyration.csv: t,Rg
+- end_to_end.csv: t,Ree
+- walk.gif / walk_*.png: Visualization
 
 ---
 
-## 👨‍💻 My Role (Optional)
+## Model and Limitations (Boundaries)
 
-I developed this simulation app and handled:
+- Default is ideal chain (no interactions)/3D random walk.
+- **Self-avoidance** (SAW) handled simply via --self-avoid (rejection/retry scheme).
+- Does not account for real DNA charge, stiffness, or solvent effects. Skeletal model for education/introduction.
 
-- Random walk simulation logic
-- Data export design
-- Visualization output scripting
+---
+
+## Applications
+
+- Lecture demos/practicals (seed-fixed for easy answer comparison)
+- Building intuition for beginners (iteration between diagrams → equations → data)
+- Research prototypes (reusing visualization and metric templates)
 
 ---
 
@@ -86,3 +59,18 @@ I developed this simulation app and handled:
 MIT License
 
 ---
+
+## 🧑‍💻 Author
+
+**[Truth Wave ― 真理の波](https://github.com/truthwave)**  
+AI tool development and educational tools also available!
+
+## Feel free to contact us
+[📩 Inquiries/Quotes](mailto:realmadrid71214591@gmail.com)
+
+---
+
+## 🏁 Final Thoughts
+
+> **Don't embellish. Reproduce.**
+> The persuasive power of science lies in the fact that the same conclusions are repeatedly reached.
