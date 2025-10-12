@@ -3,6 +3,10 @@
 > **Run it in 30 seconds, see it in 1 minute.**
 > Random walks, inertial radii, and intuition.
 
+<p align="center">
+<img width="1536" height="1024" alt="単鎖ポリマーの世界を“見て”感じるシミュレーター" src="https://github.com/user-attachments/assets/1afde400-3251-45f2-b7c2-d897bab8fd13" />
+</p>
+
 ---
 
 ## Experience (Three Steps Are Enough)
