@@ -4,7 +4,7 @@
 > 乱歩の軌跡、慣性半径、そして直感。
 
 <p align="center">
-<img width="1536" height="1024" alt="DNA単鎖モデルのランダムウォークをC言語で可視化" src="https://github.com/user-attachments/assets/996b8148-4222-41c3-b5f4-4b713e995e4f" />
+<img width="1536" height="1024" alt="DNA" src="https://github.com/user-attachments/assets/b43488be-7fcf-4534-ad08-77cd4a5c66c5" />
 </p>
 
 ---
