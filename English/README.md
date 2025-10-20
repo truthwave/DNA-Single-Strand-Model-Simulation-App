@@ -4,7 +4,7 @@
 > Random walks, inertial radii, and intuition.
 
 <p align="center">
-<img width="1536" height="1024" alt="単鎖ポリマーの世界を“見て”感じるシミュレーター" src="https://github.com/user-attachments/assets/1afde400-3251-45f2-b7c2-d897bab8fd13" />
+<img width="1536" height="1024" alt="DNA (1)" src="https://github.com/user-attachments/assets/66786e1b-a523-4eda-8c6b-6e7ea6e3f3b7" />
 </p>
 
 ---
