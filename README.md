@@ -4,7 +4,7 @@
 > 乱歩の軌跡、慣性半径、そして直感。
 
 <p align="center">
-<img width="1536" height="1024" alt="DNA" src="https://github.com/user-attachments/assets/b43488be-7fcf-4534-ad08-77cd4a5c66c5" />
+<img width="1536" height="1024" alt="DNA" src="https://github.com/user-attachments/assets/b224eb70-3c2a-40bc-a6e4-64346dc023e0" />
 </p>
 
 ---
