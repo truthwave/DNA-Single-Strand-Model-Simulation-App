@@ -4,7 +4,7 @@
 > Random walks, inertial radii, and intuition.
 
 <p align="center">
-<img width="1536" height="1024" alt="DNA (1)" src="https://github.com/user-attachments/assets/66786e1b-a523-4eda-8c6b-6e7ea6e3f3b7" />
+<img width="1536" height="1024" alt="DNA" src="https://github.com/user-attachments/assets/cc15ce2a-fed4-4aa7-91bb-c12fed46f93a" />
 </p>
 
 ---
